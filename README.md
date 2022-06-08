@@ -1,1 +1,1 @@
-# heart-disease-pred-with-ml
+# heart disease detection
