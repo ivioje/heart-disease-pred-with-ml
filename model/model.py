@@ -8,8 +8,8 @@ from sklearn.metrics import accuracy_score
 from imblearn.under_sampling import RandomUnderSampler
 
 # Load file
-READ_FILE = 'data_for_modelling.pkl'
-SAVE_FILE = 'logistic_regression.pkl'
+READ_FILE = 'analysis/data_for_modelling.pkl'
+SAVE_FILE = 'model/logistic_regression.pkl'
 
 # save the pickled file to a variable called heartData
 heartData = pd.read_pickle(READ_FILE)

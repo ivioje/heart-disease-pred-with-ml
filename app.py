@@ -93,7 +93,7 @@ if selected == 'Home':
 
 # predict
     if st.button('Predict'):
-        model = joblib.load('logistic_regression.pkl')
+        model = joblib.load('model/logistic_regression.pkl')
 
         X = pd.DataFrame([[bmi, smoking, drinking, stroke, physicalHealth, mentalHealth, walking, gender, age, race, diabetic, physicalActivity,
                            genHealth, sleepTime, asthma, kidneyDisease, cancer]], columns=['BMI', 'Smoking', 'AlcoholDrinking', 'Stroke', 'PhysicalHealth', 'MentalHealth',

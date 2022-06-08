@@ -1,11 +1,9 @@
 #import necessary modules
 import pandas as pd
-# import matplotlib.pyplot as plt
-# import seaborn as sns
 
 #load data
 READ_PATH = pd.read_csv('/data/heart_2020_cleaned.csv')
-SAVE_PATH = 'data_for_modelling.pkl'
+SAVE_PATH = 'analysis/data_for_modelling.pkl'
 
 READ_PATH.head()
 
