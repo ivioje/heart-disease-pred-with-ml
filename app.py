@@ -35,7 +35,7 @@ st.sidebar.markdown("""
             Using survey data from over 300,000 US citizens from the year 2020, a logistic regression
             model was created.
 
-            The performance ofthe model is above avarage. It achieves an accuracy of about 80%.
+            The performance ofthe model is above avarage. It achieves an accuracy of 75%.
     """)
 
 # Assigning the routes to their contents
@@ -59,7 +59,7 @@ if selected == 'Home':
         st.markdown('Or determine your BMI by finding your height and weight in this [BMI Index Chart](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmi_tbl.htm)')
 
     st.markdown('***')
-    st.markdown('**Parameters**')
+    st.markdown('**Feature Selection**')
 
     gender = st.selectbox("Select your gender", ('Male', 'Female'))
     bmi = st.number_input('Enter BMI')
